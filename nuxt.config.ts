@@ -7,5 +7,7 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
-  }
+  },
+  modules: ['@vueuse/motion/nuxt'],
+  
 });
